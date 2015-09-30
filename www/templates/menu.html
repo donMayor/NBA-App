@@ -1,0 +1,82 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <!-- Center content -->
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable">
+      <h1 class="title">Left</h1>
+    </ion-header-bar>
+    <ion-content>
+      <div class="profile-pic" style="height:200px; width:100%; background-color:#443; padding:10px; text-align:center;">
+        <div class="img-circular" style="width:100px; max-height:100%;  height:100px; background-image: url('./img/profile_pic.jpg'); background-size: cover; display: inline-block; margin:0 auto; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+        </div>
+      </div>
+      <div class="list">
+        <a class="item item-icon-left" href="#">
+          <i class="icon ion-email"></i>
+          Dashboard
+        </a>
+        <a class="item item-icon-left" href="#">
+          <i class="icon ion-chatbubble-working"></i>
+          Conference Materials
+        </a>
+        <a class="item item-icon-left" href="#">
+          <i class="icon ion-mic-a"></i>
+          Payment receipt
+        </a>
+        <a class="item item-icon-left" href="#">
+          <i class="icon ion-person-stalker"></i>
+          Conference schedules
+        </a>
+      </div>
+    </ion-content>
+  </ion-side-menu>
+
+<!--   <drawer side="left">  
+      <ion-nav-bar class="bar-stable nav-title-slide-ios7 has-tabs-top"> 
+      </ion-nav-bar>
+      
+      <ion-nav-view>
+        <ion-view title="Mayowa Egbewunmi">
+          <ion-content>
+            <div class="profile-pic" style="height:200px; width:100%; background-color:#443; padding:10px; text-align:center;">
+                <div class="img-circular" style="width:100px; max-height:100%;  height:100px; background-image: url('./img/profile_pic.jpg'); background-size: cover; display: inline-block; margin:0 auto; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+                </div>
+            </div>
+            <div class="list">
+              <a class="item item-icon-left" href="#">
+                <i class="icon ion-email"></i>
+                Dashboard
+              </a>
+              <a class="item item-icon-left" href="#">
+                <i class="icon ion-chatbubble-working"></i>
+                Conference Materials
+              </a>
+              <a class="item item-icon-left" href="#">
+                <i class="icon ion-mic-a"></i>
+                Payment receipt
+              </a>
+              <a class="item item-icon-left" href="#">
+                <i class="icon ion-person-stalker"></i>
+                Conference schedules
+              </a>
+            </div>
+          </ion-content>
+        </ion-view>
+
+      </ion-nav-view>
+  </drawer> -->
+
+
+</ion-side-menus>
